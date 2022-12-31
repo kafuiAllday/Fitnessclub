@@ -200,3 +200,73 @@ html{
     list-style: none;
     font-size: 1.7rem;
 }
+.contact-section{
+    padding: 9rem 0;
+}
+
+.contact{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #666;
+    height: 40rem;
+    border-radius: 1rem;
+    
+}
+
+.contact-img img{
+    width: 100%;
+}
+
+.contact-img{
+    background-image:linear-gradient(to right bottom,rgba(51, 51, 51, 0.692),rgba(51, 51, 51, 0.1)), url(shape.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contact-text{
+    padding: 6rem;
+}
+
+.contact-text h1{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.cta-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    align-items: center;
+
+}
+
+.cta-form button
+{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(170, 48, 3);
+    color:#fff;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.cta-form input
+{
+    padding: 1rem;
+    width: 90%;
+    border-radius: .5rem;
+    border: 0;
+    font-size: 1.6rem;
+}
+
+
+
+.cta-form label{
+    color: #fff;
+    font-size: 2rem;
+    
+    
+}
