@@ -134,4 +134,69 @@ html{
     max-width: 120rem;
     padding: 0 2rem;
 }
+.Servicies-section{
+    padding: 9rem 0;
+    border-top: 1px solid #333;
+}
 
+.Services{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 4rem;
+    
+}
+.services-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+
+.services-img img{
+    width: 100%;
+    
+}
+
+.Services-heading{
+   font-size: 4rem; 
+   font-weight: 600;
+   margin-bottom: 5rem;
+   
+}
+
+.service-bold{
+    color: orangered;
+}
+
+.service{
+    color: #333;
+    margin-right: 1rem;
+}
+
+.services-box h3{
+    font-size: 3rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.services-box p{
+    font-size: 2rem;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+
+.facilities-box h3{
+    font-size: 3rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 2rem;
+
+}
+
+.facilities-box li{
+    list-style: none;
+    font-size: 1.7rem;
+}
