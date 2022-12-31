@@ -295,6 +295,122 @@ html{
 .socials ion-icon{
     font-size: 25px;
     color: #444;
-   
 }
 
+@media (max-width:1200px){
+    .main-heading{
+        font-size: 4rem;
+    }
+    .sub-heading{
+        font-size: 2rem;
+    }
+    .btn:link,
+    .btn:visited{
+    font-size: 1.8rem;
+    padding: 1.4rem 3.2rem;
+    border-radius: 0.4rem;
+    text-decoration: none;
+}
+
+.About-us{
+    font-size: 3.4rem;
+}
+.Us{
+    font-size: 3.4rem;
+}
+.About-text{
+    font-size: 1.8rem;
+}
+.service{
+    font-size: 3.4rem;
+}
+.service-bold{
+    font-size: 3.4rem;
+}
+.services-box p{
+    font-size: 1.8rem;
+}
+.facilities-box h3{
+    font-size: 2rem;
+   
+}
+.contact-text{
+    padding: 5rem;
+}
+.contact-text h1{
+    font-size: 2.2rem;
+    
+}
+.cta-form input
+{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.cta-form label{
+    font-size: 1.8rem;
+}
+.cta-form button
+{
+    padding: .9rem 1.8rem;
+    font-size: 1.8rem;
+   
+}
+}
+
+@media (max-width:920px){
+    .main-heading{
+        font-size: 3rem;
+    }
+    .sub-heading{
+        font-size: 1.8rem;
+    }
+    .About{
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 3rem;
+    }
+    .About-text{
+        font-size: 1.6rem;
+    }
+    .Services{
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 3rem;
+    }
+    .services-img{
+        grid-row: 2/3;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    .contact-service{
+        padding: 2rem;
+    }
+    .contact-text{
+        padding: 3rem;
+    }
+    .contact-text h1{
+        font-size: 2.1rem;
+        color: #fff;
+        margin-bottom: 4rem;
+    }
+    .cta-form{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+        align-items: center;
+    }
+    .footer-heading{
+        font-size: 1.7rem;
+       
+    }
+    
+    .nav-col{
+        font-size: 1.4rem;
+    }
+    
+
+
+
+}
