@@ -270,3 +270,31 @@ html{
     
     
 }
+.footer-section{
+    padding: 5rem 0;
+    border-top: 1px solid #999;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.nav-col{
+    font-size: 1.5rem;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.socials ion-icon{
+    font-size: 25px;
+    color: #444;
+   
+}
+
